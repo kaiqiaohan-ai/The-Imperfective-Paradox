@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "A_001",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Maya was counting all five hundred ballots, but an evacuation occurred after ballot 180 and officials carried the remaining ballots away.",
+    "hypothesis": "Maya counted all five hundred ballots.",
+    "label": "False"
+  },
+  {
+    "id": "B_001",
+    "group": "B_Interrupted_Activity",
+    "premise": "Maya was counting at the polling station, but an evacuation interrupted her.",
+    "hypothesis": "Maya counted at the polling station.",
+    "label": "True"
+  },
+  {
+    "id": "C_001",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Maya was counting all five hundred ballots.",
+    "hypothesis": "Maya counted all five hundred ballots.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_001",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Maya was counting at the polling station.",
+    "hypothesis": "Maya counted at the polling station.",
+    "label": "True"
+  },
+  {
+    "id": "A_002",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Leo was painting a portrait, but rain ruined the canvas while half the face was still blank.",
+    "hypothesis": "Leo painted a portrait.",
+    "label": "False"
+  },
+  {
+    "id": "B_002",
+    "group": "B_Interrupted_Activity",
+    "premise": "Leo was painting in the studio, but rain interrupted him.",
+    "hypothesis": "Leo painted in the studio.",
+    "label": "True"
+  },
+  {
+    "id": "C_002",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Leo was painting a portrait.",
+    "hypothesis": "Leo painted a portrait.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_002",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Leo was painting in the studio.",
+    "hypothesis": "Leo painted in the studio.",
+    "label": "True"
+  },
+  {
+    "id": "A_003",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Nina was writing a 300-page novel, but a computer failure erased the manuscript while she was on page 120.",
+    "hypothesis": "Nina wrote a 300-page novel.",
+    "label": "False"
+  },
+  {
+    "id": "B_003",
+    "group": "B_Interrupted_Activity",
+    "premise": "Nina was writing in the library, but a computer failure interrupted her.",
+    "hypothesis": "Nina wrote in the library.",
+    "label": "True"
+  },
+  {
+    "id": "C_003",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Nina was writing a 300-page novel.",
+    "hypothesis": "Nina wrote a 300-page novel.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_003",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Nina was writing in the library.",
+    "hypothesis": "Nina wrote in the library.",
+    "label": "True"
+  },
+  {
+    "id": "A_004",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Omar was walking to the lighthouse, but a storm made him turn back halfway there.",
+    "hypothesis": "Omar walked to the lighthouse.",
+    "label": "False"
+  },
+  {
+    "id": "B_004",
+    "group": "B_Interrupted_Activity",
+    "premise": "Omar was walking near the lighthouse, but a storm interrupted him.",
+    "hypothesis": "Omar walked near the lighthouse.",
+    "label": "True"
+  },
+  {
+    "id": "C_004",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Omar was walking to the lighthouse.",
+    "hypothesis": "Omar walked to the lighthouse.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_004",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Omar was walking near the lighthouse.",
+    "hypothesis": "Omar walked near the lighthouse.",
+    "label": "True"
+  },
+  {
+    "id": "A_005",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Priya was running to the stadium, but she sprained her ankle halfway there and dropped out.",
+    "hypothesis": "Priya ran to the stadium.",
+    "label": "False"
+  },
+  {
+    "id": "B_005",
+    "group": "B_Interrupted_Activity",
+    "premise": "Priya was running near the stadium, but an injury interrupted her.",
+    "hypothesis": "Priya ran near the stadium.",
+    "label": "True"
+  },
+  {
+    "id": "C_005",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Priya was running to the stadium.",
+    "hypothesis": "Priya ran to the stadium.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_005",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Priya was running near the stadium.",
+    "hypothesis": "Priya ran near the stadium.",
+    "label": "True"
+  },
+  {
+    "id": "A_006",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Daniel was swimming across the pool, but the lifeguard pulled him out at the halfway marker.",
+    "hypothesis": "Daniel swam across the pool.",
+    "label": "False"
+  },
+  {
+    "id": "B_006",
+    "group": "B_Interrupted_Activity",
+    "premise": "Daniel was swimming in the pool, but the lifeguard interrupted him.",
+    "hypothesis": "Daniel swam in the pool.",
+    "label": "True"
+  },
+  {
+    "id": "C_006",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Daniel was swimming across the pool.",
+    "hypothesis": "Daniel swam across the pool.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_006",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Daniel was swimming in the pool.",
+    "hypothesis": "Daniel swam in the pool.",
+    "label": "True"
+  },
+  {
+    "id": "A_007",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Iris was drawing a complete campus map, but the paper tore while the western half was still blank.",
+    "hypothesis": "Iris drew a complete campus map.",
+    "label": "False"
+  },
+  {
+    "id": "B_007",
+    "group": "B_Interrupted_Activity",
+    "premise": "Iris was drawing in her sketchbook, but the paper tore.",
+    "hypothesis": "Iris drew in her sketchbook.",
+    "label": "True"
+  },
+  {
+    "id": "C_007",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Iris was drawing a complete campus map.",
+    "hypothesis": "Iris drew a complete campus map.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_007",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Iris was drawing in her sketchbook.",
+    "hypothesis": "Iris drew in her sketchbook.",
+    "label": "True"
+  },
+  {
+    "id": "A_008",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Marcus was eating a whole sandwich, but an alarm sounded after two bites and he threw the rest away.",
+    "hypothesis": "Marcus ate a whole sandwich.",
+    "label": "False"
+  },
+  {
+    "id": "B_008",
+    "group": "B_Interrupted_Activity",
+    "premise": "Marcus was eating at the buffet, but an alarm interrupted him.",
+    "hypothesis": "Marcus ate at the buffet.",
+    "label": "True"
+  },
+  {
+    "id": "C_008",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Marcus was eating a whole sandwich.",
+    "hypothesis": "Marcus ate a whole sandwich.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_008",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Marcus was eating at the buffet.",
+    "hypothesis": "Marcus ate at the buffet.",
+    "label": "True"
+  },
+  {
+    "id": "A_009",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Sofia was drinking an entire bottle of juice, but an urgent call came and she dropped the mostly full bottle.",
+    "hypothesis": "Sofia drank an entire bottle of juice.",
+    "label": "False"
+  },
+  {
+    "id": "B_009",
+    "group": "B_Interrupted_Activity",
+    "premise": "Sofia was drinking at the reception, but an urgent call interrupted her.",
+    "hypothesis": "Sofia drank at the reception.",
+    "label": "True"
+  },
+  {
+    "id": "C_009",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Sofia was drinking an entire bottle of juice.",
+    "hypothesis": "Sofia drank an entire bottle of juice.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_009",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Sofia was drinking at the reception.",
+    "hypothesis": "Sofia drank at the reception.",
+    "label": "True"
+  },
+  {
+    "id": "A_010",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "The tailor was sewing a wedding dress, but the fabric tore while both sleeves were still detached.",
+    "hypothesis": "The tailor sewed a wedding dress.",
+    "label": "False"
+  },
+  {
+    "id": "B_010",
+    "group": "B_Interrupted_Activity",
+    "premise": "The tailor was sewing at the worktable, but the fabric tore.",
+    "hypothesis": "The tailor sewed at the worktable.",
+    "label": "True"
+  },
+  {
+    "id": "C_010",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "The tailor was sewing a wedding dress.",
+    "hypothesis": "The tailor sewed a wedding dress.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_010",
+    "group": "D_Ambiguous_Activity",
+    "premise": "The tailor was sewing at the worktable.",
+    "hypothesis": "The tailor sewed at the worktable.",
+    "label": "True"
+  },
+  {
+    "id": "A_011",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Ava was cooking a three-course dinner, but a gas alarm sounded after the appetizer and the meal was discarded.",
+    "hypothesis": "Ava cooked a three-course dinner.",
+    "label": "False"
+  },
+  {
+    "id": "B_011",
+    "group": "B_Interrupted_Activity",
+    "premise": "Ava was cooking in the kitchen, but a gas alarm interrupted her.",
+    "hypothesis": "Ava cooked in the kitchen.",
+    "label": "True"
+  },
+  {
+    "id": "C_011",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Ava was cooking a three-course dinner.",
+    "hypothesis": "Ava cooked a three-course dinner.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_011",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Ava was cooking in the kitchen.",
+    "hypothesis": "Ava cooked in the kitchen.",
+    "label": "True"
+  },
+  {
+    "id": "A_012",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Jon was typing the final contract, but the computer erased the document after he had written a few lines.",
+    "hypothesis": "Jon typed the final contract.",
+    "label": "False"
+  },
+  {
+    "id": "B_012",
+    "group": "B_Interrupted_Activity",
+    "premise": "Jon was typing at his desk, but a computer failure interrupted him.",
+    "hypothesis": "Jon typed at his desk.",
+    "label": "True"
+  },
+  {
+    "id": "C_012",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Jon was typing the final contract.",
+    "hypothesis": "Jon typed the final contract.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_012",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Jon was typing at his desk.",
+    "hypothesis": "Jon typed at his desk.",
+    "label": "True"
+  },
+  {
+    "id": "A_013",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Rosa was polishing the entire trophy, but the machine failed while one side was still dull.",
+    "hypothesis": "Rosa polished the entire trophy.",
+    "label": "False"
+  },
+  {
+    "id": "B_013",
+    "group": "B_Interrupted_Activity",
+    "premise": "Rosa was polishing in the workshop, but a machine failure interrupted her.",
+    "hypothesis": "Rosa polished in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "C_013",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Rosa was polishing the entire trophy.",
+    "hypothesis": "Rosa polished the entire trophy.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_013",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Rosa was polishing in the workshop.",
+    "hypothesis": "Rosa polished in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "A_014",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Eli was mowing the entire field, but the mower failed after he had cut one quarter of it.",
+    "hypothesis": "Eli mowed the entire field.",
+    "label": "False"
+  },
+  {
+    "id": "B_014",
+    "group": "B_Interrupted_Activity",
+    "premise": "Eli was mowing along the roadside, but the mower failed.",
+    "hypothesis": "Eli mowed along the roadside.",
+    "label": "True"
+  },
+  {
+    "id": "C_014",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Eli was mowing the entire field.",
+    "hypothesis": "Eli mowed the entire field.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_014",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Eli was mowing along the roadside.",
+    "hypothesis": "Eli mowed along the roadside.",
+    "label": "True"
+  },
+  {
+    "id": "A_015",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Mei was translating the complete agreement, but the client withdrew it after she reached clause eight.",
+    "hypothesis": "Mei translated the complete agreement.",
+    "label": "False"
+  },
+  {
+    "id": "B_015",
+    "group": "B_Interrupted_Activity",
+    "premise": "Mei was translating at the museum, but the client withdrew the material.",
+    "hypothesis": "Mei translated at the museum.",
+    "label": "True"
+  },
+  {
+    "id": "C_015",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Mei was translating the complete agreement.",
+    "hypothesis": "Mei translated the complete agreement.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_015",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Mei was translating at the museum.",
+    "hypothesis": "Mei translated at the museum.",
+    "label": "True"
+  },
+  {
+    "id": "A_016",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Noah was packing one suitcase, but security took it away while it was half packed.",
+    "hypothesis": "Noah packed one suitcase.",
+    "label": "False"
+  },
+  {
+    "id": "B_016",
+    "group": "B_Interrupted_Activity",
+    "premise": "Noah was packing at the warehouse, but security took the container away.",
+    "hypothesis": "Noah packed at the warehouse.",
+    "label": "True"
+  },
+  {
+    "id": "C_016",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Noah was packing one suitcase.",
+    "hypothesis": "Noah packed one suitcase.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_016",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Noah was packing at the warehouse.",
+    "hypothesis": "Noah packed at the warehouse.",
+    "label": "True"
+  },
+  {
+    "id": "A_017",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Grace was repairing the damaged generator, but a flood carried it away while a key component was still missing.",
+    "hypothesis": "Grace repaired the damaged generator.",
+    "label": "False"
+  },
+  {
+    "id": "B_017",
+    "group": "B_Interrupted_Activity",
+    "premise": "Grace was repairing equipment in the workshop, but a flood carried it away.",
+    "hypothesis": "Grace repaired equipment in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "C_017",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Grace was repairing the damaged generator.",
+    "hypothesis": "Grace repaired the damaged generator.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_017",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Grace was repairing equipment in the workshop.",
+    "hypothesis": "Grace repaired equipment in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "A_018",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Luis was photographing every painting, but an evacuation made him leave after the fifth one.",
+    "hypothesis": "Luis photographed every painting.",
+    "label": "False"
+  },
+  {
+    "id": "B_018",
+    "group": "B_Interrupted_Activity",
+    "premise": "Luis was photographing at the gallery, but an evacuation interrupted him.",
+    "hypothesis": "Luis photographed at the gallery.",
+    "label": "True"
+  },
+  {
+    "id": "C_018",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Luis was photographing every painting.",
+    "hypothesis": "Luis photographed every painting.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_018",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Luis was photographing at the gallery.",
+    "hypothesis": "Luis photographed at the gallery.",
+    "label": "True"
+  },
+  {
+    "id": "A_019",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Hana was singing the complete anthem, but a ranger stopped her after the first verse.",
+    "hypothesis": "Hana sang the complete anthem.",
+    "label": "False"
+  },
+  {
+    "id": "B_019",
+    "group": "B_Interrupted_Activity",
+    "premise": "Hana was singing at the campfire, but a ranger interrupted her.",
+    "hypothesis": "Hana sang at the campfire.",
+    "label": "True"
+  },
+  {
+    "id": "C_019",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Hana was singing the complete anthem.",
+    "hypothesis": "Hana sang the complete anthem.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_019",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Hana was singing at the campfire.",
+    "hypothesis": "Hana sang at the campfire.",
+    "label": "True"
+  },
+  {
+    "id": "A_020",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "The children were building one treehouse, but a storm knocked it down when it had only three walls.",
+    "hypothesis": "The children built one treehouse.",
+    "label": "False"
+  },
+  {
+    "id": "B_020",
+    "group": "B_Interrupted_Activity",
+    "premise": "The children were building with blocks, but a storm knocked them down.",
+    "hypothesis": "The children built with blocks.",
+    "label": "True"
+  },
+  {
+    "id": "C_020",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "The children were building one treehouse.",
+    "hypothesis": "The children built one treehouse.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_020",
+    "group": "D_Ambiguous_Activity",
+    "premise": "The children were building with blocks.",
+    "hypothesis": "The children built with blocks.",
+    "label": "True"
+  },
+  {
+    "id": "A_021",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Tara was carving one wooden statue, but the chisel split the wood while the statue still had no arms.",
+    "hypothesis": "Tara carved one wooden statue.",
+    "label": "False"
+  },
+  {
+    "id": "B_021",
+    "group": "B_Interrupted_Activity",
+    "premise": "Tara was carving in the workshop, but the chisel broke.",
+    "hypothesis": "Tara carved in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "C_021",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Tara was carving one wooden statue.",
+    "hypothesis": "Tara carved one wooden statue.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_021",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Tara was carving in the workshop.",
+    "hypothesis": "Tara carved in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "A_022",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Lina was embroidering one company logo, but the cloth tore while half the logo was still missing.",
+    "hypothesis": "Lina embroidered one company logo.",
+    "label": "False"
+  },
+  {
+    "id": "B_022",
+    "group": "B_Interrupted_Activity",
+    "premise": "Lina was embroidering at the table, but the cloth tore.",
+    "hypothesis": "Lina embroidered at the table.",
+    "label": "True"
+  },
+  {
+    "id": "C_022",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Lina was embroidering one company logo.",
+    "hypothesis": "Lina embroidered one company logo.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_022",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Lina was embroidering at the table.",
+    "hypothesis": "Lina embroidered at the table.",
+    "label": "True"
+  },
+  {
+    "id": "A_023",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Ben was assembling one bookshelf, but a shelf snapped while the frame was only half joined.",
+    "hypothesis": "Ben assembled one bookshelf.",
+    "label": "False"
+  },
+  {
+    "id": "B_023",
+    "group": "B_Interrupted_Activity",
+    "premise": "Ben was assembling furniture in the workshop, but a shelf snapped.",
+    "hypothesis": "Ben assembled furniture in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "C_023",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Ben was assembling one bookshelf.",
+    "hypothesis": "Ben assembled one bookshelf.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_023",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Ben was assembling furniture in the workshop.",
+    "hypothesis": "Ben assembled furniture in the workshop.",
+    "label": "True"
+  },
+  {
+    "id": "A_024",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Zoe was decorating the entire hall, but the venue closed while the back half was still bare.",
+    "hypothesis": "Zoe decorated the entire hall.",
+    "label": "False"
+  },
+  {
+    "id": "B_024",
+    "group": "B_Interrupted_Activity",
+    "premise": "Zoe was decorating at the venue, but the venue closed.",
+    "hypothesis": "Zoe decorated at the venue.",
+    "label": "True"
+  },
+  {
+    "id": "C_024",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Zoe was decorating the entire hall.",
+    "hypothesis": "Zoe decorated the entire hall.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_024",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Zoe was decorating at the venue.",
+    "hypothesis": "Zoe decorated at the venue.",
+    "label": "True"
+  },
+  {
+    "id": "A_025",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Sam was washing the entire car, but the water stopped while the rear half was still muddy.",
+    "hypothesis": "Sam washed the entire car.",
+    "label": "False"
+  },
+  {
+    "id": "B_025",
+    "group": "B_Interrupted_Activity",
+    "premise": "Sam was washing at the service station, but the water stopped.",
+    "hypothesis": "Sam washed at the service station.",
+    "label": "True"
+  },
+  {
+    "id": "C_025",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Sam was washing the entire car.",
+    "hypothesis": "Sam washed the entire car.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_025",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Sam was washing at the service station.",
+    "hypothesis": "Sam washed at the service station.",
+    "label": "True"
+  },
+  {
+    "id": "A_026",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Clara was ironing all five shirts, but the iron failed while three shirts were still wrinkled.",
+    "hypothesis": "Clara ironed all five shirts.",
+    "label": "False"
+  },
+  {
+    "id": "B_026",
+    "group": "B_Interrupted_Activity",
+    "premise": "Clara was ironing in the laundry room, but the iron failed.",
+    "hypothesis": "Clara ironed in the laundry room.",
+    "label": "True"
+  },
+  {
+    "id": "C_026",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Clara was ironing all five shirts.",
+    "hypothesis": "Clara ironed all five shirts.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_026",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Clara was ironing in the laundry room.",
+    "hypothesis": "Clara ironed in the laundry room.",
+    "label": "True"
+  },
+  {
+    "id": "A_027",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Victor was peeling all six potatoes, but the knife broke after the second potato.",
+    "hypothesis": "Victor peeled all six potatoes.",
+    "label": "False"
+  },
+  {
+    "id": "B_027",
+    "group": "B_Interrupted_Activity",
+    "premise": "Victor was peeling vegetables in the kitchen, but the knife broke.",
+    "hypothesis": "Victor peeled vegetables in the kitchen.",
+    "label": "True"
+  },
+  {
+    "id": "C_027",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Victor was peeling all six potatoes.",
+    "hypothesis": "Victor peeled all six potatoes.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_027",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Victor was peeling vegetables in the kitchen.",
+    "hypothesis": "Victor peeled vegetables in the kitchen.",
+    "label": "True"
+  },
+  {
+    "id": "A_028",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Amira was slicing the whole loaf, but the slicer jammed with most of the loaf intact.",
+    "hypothesis": "Amira sliced the whole loaf.",
+    "label": "False"
+  },
+  {
+    "id": "B_028",
+    "group": "B_Interrupted_Activity",
+    "premise": "Amira was slicing bread in the bakery, but the slicer jammed.",
+    "hypothesis": "Amira sliced bread in the bakery.",
+    "label": "True"
+  },
+  {
+    "id": "C_028",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Amira was slicing the whole loaf.",
+    "hypothesis": "Amira sliced the whole loaf.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_028",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Amira was slicing bread in the bakery.",
+    "hypothesis": "Amira sliced bread in the bakery.",
+    "label": "True"
+  },
+  {
+    "id": "A_029",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Peter was copying the entire manuscript, but the copier failed on page forty of two hundred.",
+    "hypothesis": "Peter copied the entire manuscript.",
+    "label": "False"
+  },
+  {
+    "id": "B_029",
+    "group": "B_Interrupted_Activity",
+    "premise": "Peter was copying at the archive, but the copier failed.",
+    "hypothesis": "Peter copied at the archive.",
+    "label": "True"
+  },
+  {
+    "id": "C_029",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Peter was copying the entire manuscript.",
+    "hypothesis": "Peter copied the entire manuscript.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_029",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Peter was copying at the archive.",
+    "hypothesis": "Peter copied at the archive.",
+    "label": "True"
+  },
+  {
+    "id": "A_030",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Rina was scanning every page of the file, but the scanner failed after page twelve with thirty pages left.",
+    "hypothesis": "Rina scanned every page of the file.",
+    "label": "False"
+  },
+  {
+    "id": "B_030",
+    "group": "B_Interrupted_Activity",
+    "premise": "Rina was scanning at the office, but the scanner failed.",
+    "hypothesis": "Rina scanned at the office.",
+    "label": "True"
+  },
+  {
+    "id": "C_030",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Rina was scanning every page of the file.",
+    "hypothesis": "Rina scanned every page of the file.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_030",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Rina was scanning at the office.",
+    "hypothesis": "Rina scanned at the office.",
+    "label": "True"
+  },
+  {
+    "id": "A_031",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Kai was dancing the complete routine, but the director stopped him after the opening section.",
+    "hypothesis": "Kai danced the complete routine.",
+    "label": "False"
+  },
+  {
+    "id": "B_031",
+    "group": "B_Interrupted_Activity",
+    "premise": "Kai was dancing at the rehearsal, but the director stopped him.",
+    "hypothesis": "Kai danced at the rehearsal.",
+    "label": "True"
+  },
+  {
+    "id": "C_031",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Kai was dancing the complete routine.",
+    "hypothesis": "Kai danced the complete routine.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_031",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Kai was dancing at the rehearsal.",
+    "hypothesis": "Kai danced at the rehearsal.",
+    "label": "True"
+  },
+  {
+    "id": "A_032",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Mira was playing the entire sonata, but a string broke during the first movement.",
+    "hypothesis": "Mira played the entire sonata.",
+    "label": "False"
+  },
+  {
+    "id": "B_032",
+    "group": "B_Interrupted_Activity",
+    "premise": "Mira was playing at the concert, but a string broke.",
+    "hypothesis": "Mira played at the concert.",
+    "label": "True"
+  },
+  {
+    "id": "C_032",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Mira was playing the entire sonata.",
+    "hypothesis": "Mira played the entire sonata.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_032",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Mira was playing at the concert.",
+    "hypothesis": "Mira played at the concert.",
+    "label": "True"
+  },
+  {
+    "id": "A_033",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Adam was reciting the complete poem, but the teacher stopped him after the second stanza.",
+    "hypothesis": "Adam recited the complete poem.",
+    "label": "False"
+  },
+  {
+    "id": "B_033",
+    "group": "B_Interrupted_Activity",
+    "premise": "Adam was reciting at the rehearsal, but the teacher stopped him.",
+    "hypothesis": "Adam recited at the rehearsal.",
+    "label": "True"
+  },
+  {
+    "id": "C_033",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Adam was reciting the complete poem.",
+    "hypothesis": "Adam recited the complete poem.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_033",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Adam was reciting at the rehearsal.",
+    "hypothesis": "Adam recited at the rehearsal.",
+    "label": "True"
+  },
+  {
+    "id": "A_034",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Eva was driving to the airport, but the car stalled halfway there and a tow truck took her home.",
+    "hypothesis": "Eva drove to the airport.",
+    "label": "False"
+  },
+  {
+    "id": "B_034",
+    "group": "B_Interrupted_Activity",
+    "premise": "Eva was driving near the airport, but the car stalled.",
+    "hypothesis": "Eva drove near the airport.",
+    "label": "True"
+  },
+  {
+    "id": "C_034",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Eva was driving to the airport.",
+    "hypothesis": "Eva drove to the airport.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_034",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Eva was driving near the airport.",
+    "hypothesis": "Eva drove near the airport.",
+    "label": "True"
+  },
+  {
+    "id": "A_035",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Theo was cycling to the village, but a puncture made him turn back halfway there.",
+    "hypothesis": "Theo cycled to the village.",
+    "label": "False"
+  },
+  {
+    "id": "B_035",
+    "group": "B_Interrupted_Activity",
+    "premise": "Theo was cycling near the village, but a puncture interrupted him.",
+    "hypothesis": "Theo cycled near the village.",
+    "label": "True"
+  },
+  {
+    "id": "C_035",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Theo was cycling to the village.",
+    "hypothesis": "Theo cycled to the village.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_035",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Theo was cycling near the village.",
+    "hypothesis": "Theo cycled near the village.",
+    "label": "True"
+  },
+  {
+    "id": "A_036",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "June was sailing across the bay, but the coast guard turned her around at the midpoint.",
+    "hypothesis": "June sailed across the bay.",
+    "label": "False"
+  },
+  {
+    "id": "B_036",
+    "group": "B_Interrupted_Activity",
+    "premise": "June was sailing in the bay, but the coast guard interrupted her.",
+    "hypothesis": "June sailed in the bay.",
+    "label": "True"
+  },
+  {
+    "id": "C_036",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "June was sailing across the bay.",
+    "hypothesis": "June sailed across the bay.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_036",
+    "group": "D_Ambiguous_Activity",
+    "premise": "June was sailing in the bay.",
+    "hypothesis": "June sailed in the bay.",
+    "label": "True"
+  },
+  {
+    "id": "A_037",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Alex was rowing across the lake, but a broken oar forced him back from the halfway buoy.",
+    "hypothesis": "Alex rowed across the lake.",
+    "label": "False"
+  },
+  {
+    "id": "B_037",
+    "group": "B_Interrupted_Activity",
+    "premise": "Alex was rowing on the lake, but a broken oar interrupted him.",
+    "hypothesis": "Alex rowed on the lake.",
+    "label": "True"
+  },
+  {
+    "id": "C_037",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Alex was rowing across the lake.",
+    "hypothesis": "Alex rowed across the lake.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_037",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Alex was rowing on the lake.",
+    "hypothesis": "Alex rowed on the lake.",
+    "label": "True"
+  },
+  {
+    "id": "A_038",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Sara was climbing to the summit, but falling ice made her descend from the halfway camp.",
+    "hypothesis": "Sara climbed to the summit.",
+    "label": "False"
+  },
+  {
+    "id": "B_038",
+    "group": "B_Interrupted_Activity",
+    "premise": "Sara was climbing on the rock face, but falling ice interrupted her.",
+    "hypothesis": "Sara climbed on the rock face.",
+    "label": "True"
+  },
+  {
+    "id": "C_038",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Sara was climbing to the summit.",
+    "hypothesis": "Sara climbed to the summit.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_038",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Sara was climbing on the rock face.",
+    "hypothesis": "Sara climbed on the rock face.",
+    "label": "True"
+  },
+  {
+    "id": "A_039",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Ivan was carrying one crate to the warehouse, but the crate split open halfway there and its contents spilled out.",
+    "hypothesis": "Ivan carried one crate to the warehouse.",
+    "label": "False"
+  },
+  {
+    "id": "B_039",
+    "group": "B_Interrupted_Activity",
+    "premise": "Ivan was carrying crates around the yard, but a crate split open.",
+    "hypothesis": "Ivan carried crates around the yard.",
+    "label": "True"
+  },
+  {
+    "id": "C_039",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Ivan was carrying one crate to the warehouse.",
+    "hypothesis": "Ivan carried one crate to the warehouse.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_039",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Ivan was carrying crates around the yard.",
+    "hypothesis": "Ivan carried crates around the yard.",
+    "label": "True"
+  },
+  {
+    "id": "A_040",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Nora was pushing one cart to the entrance, but a wheel broke halfway there and the cart was taken away.",
+    "hypothesis": "Nora pushed one cart to the entrance.",
+    "label": "False"
+  },
+  {
+    "id": "B_040",
+    "group": "B_Interrupted_Activity",
+    "premise": "Nora was pushing carts around the lot, but a wheel broke.",
+    "hypothesis": "Nora pushed carts around the lot.",
+    "label": "True"
+  },
+  {
+    "id": "C_040",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Nora was pushing one cart to the entrance.",
+    "hypothesis": "Nora pushed one cart to the entrance.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_040",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Nora was pushing carts around the lot.",
+    "hypothesis": "Nora pushed carts around the lot.",
+    "label": "True"
+  },
+  {
+    "id": "A_041",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Felix was pulling one sled to the cabin, but the rope snapped halfway there and the sled slid back downhill.",
+    "hypothesis": "Felix pulled one sled to the cabin.",
+    "label": "False"
+  },
+  {
+    "id": "B_041",
+    "group": "B_Interrupted_Activity",
+    "premise": "Felix was pulling sleds around the field, but the rope snapped.",
+    "hypothesis": "Felix pulled sleds around the field.",
+    "label": "True"
+  },
+  {
+    "id": "C_041",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Felix was pulling one sled to the cabin.",
+    "hypothesis": "Felix pulled one sled to the cabin.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_041",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Felix was pulling sleds around the field.",
+    "hypothesis": "Felix pulled sleds around the field.",
+    "label": "True"
+  },
+  {
+    "id": "A_042",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Layla was digging a two-meter trench, but the shovel broke when the trench was one meter long.",
+    "hypothesis": "Layla dug a two-meter trench.",
+    "label": "False"
+  },
+  {
+    "id": "B_042",
+    "group": "B_Interrupted_Activity",
+    "premise": "Layla was digging in the garden, but the shovel broke.",
+    "hypothesis": "Layla dug in the garden.",
+    "label": "True"
+  },
+  {
+    "id": "C_042",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Layla was digging a two-meter trench.",
+    "hypothesis": "Layla dug a two-meter trench.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_042",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Layla was digging in the garden.",
+    "hypothesis": "Layla dug in the garden.",
+    "label": "True"
+  },
+  {
+    "id": "A_043",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Eric was sweeping the entire floor, but the broom snapped while half the floor was still dusty.",
+    "hypothesis": "Eric swept the entire floor.",
+    "label": "False"
+  },
+  {
+    "id": "B_043",
+    "group": "B_Interrupted_Activity",
+    "premise": "Eric was sweeping in the hallway, but the broom snapped.",
+    "hypothesis": "Eric swept in the hallway.",
+    "label": "True"
+  },
+  {
+    "id": "C_043",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Eric was sweeping the entire floor.",
+    "hypothesis": "Eric swept the entire floor.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_043",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Eric was sweeping in the hallway.",
+    "hypothesis": "Eric swept in the hallway.",
+    "label": "True"
+  },
+  {
+    "id": "A_044",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Paula was vacuuming the entire apartment, but the vacuum failed while two rooms were still untouched.",
+    "hypothesis": "Paula vacuumed the entire apartment.",
+    "label": "False"
+  },
+  {
+    "id": "B_044",
+    "group": "B_Interrupted_Activity",
+    "premise": "Paula was vacuuming in the hallway, but the vacuum failed.",
+    "hypothesis": "Paula vacuumed in the hallway.",
+    "label": "True"
+  },
+  {
+    "id": "C_044",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Paula was vacuuming the entire apartment.",
+    "hypothesis": "Paula vacuumed the entire apartment.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_044",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Paula was vacuuming in the hallway.",
+    "hypothesis": "Paula vacuumed in the hallway.",
+    "label": "True"
+  },
+  {
+    "id": "A_045",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Gavin was raking the entire lawn, but the rake broke while leaves still covered the back half.",
+    "hypothesis": "Gavin raked the entire lawn.",
+    "label": "False"
+  },
+  {
+    "id": "B_045",
+    "group": "B_Interrupted_Activity",
+    "premise": "Gavin was raking in the yard, but the rake broke.",
+    "hypothesis": "Gavin raked in the yard.",
+    "label": "True"
+  },
+  {
+    "id": "C_045",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Gavin was raking the entire lawn.",
+    "hypothesis": "Gavin raked the entire lawn.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_045",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Gavin was raking in the yard.",
+    "hypothesis": "Gavin raked in the yard.",
+    "label": "True"
+  },
+  {
+    "id": "A_046",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Dana was shoveling the entire driveway, but the shovel cracked after one third of the driveway.",
+    "hypothesis": "Dana shoveled the entire driveway.",
+    "label": "False"
+  },
+  {
+    "id": "B_046",
+    "group": "B_Interrupted_Activity",
+    "premise": "Dana was shoveling outside, but the shovel cracked.",
+    "hypothesis": "Dana shoveled outside.",
+    "label": "True"
+  },
+  {
+    "id": "C_046",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Dana was shoveling the entire driveway.",
+    "hypothesis": "Dana shoveled the entire driveway.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_046",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Dana was shoveling outside.",
+    "hypothesis": "Dana shoveled outside.",
+    "label": "True"
+  },
+  {
+    "id": "A_047",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Ravi was watering all thirty plants, but the hose burst after the ninth plant.",
+    "hypothesis": "Ravi watered all thirty plants.",
+    "label": "False"
+  },
+  {
+    "id": "B_047",
+    "group": "B_Interrupted_Activity",
+    "premise": "Ravi was watering in the greenhouse, but the hose burst.",
+    "hypothesis": "Ravi watered in the greenhouse.",
+    "label": "True"
+  },
+  {
+    "id": "C_047",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Ravi was watering all thirty plants.",
+    "hypothesis": "Ravi watered all thirty plants.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_047",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Ravi was watering in the greenhouse.",
+    "hypothesis": "Ravi watered in the greenhouse.",
+    "label": "True"
+  },
+  {
+    "id": "A_048",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Mona was labeling exactly fifty boxes, but the printer failed after box eighteen.",
+    "hypothesis": "Mona labeled exactly fifty boxes.",
+    "label": "False"
+  },
+  {
+    "id": "B_048",
+    "group": "B_Interrupted_Activity",
+    "premise": "Mona was labeling boxes in the warehouse, but the printer failed.",
+    "hypothesis": "Mona labeled boxes in the warehouse.",
+    "label": "True"
+  },
+  {
+    "id": "C_048",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Mona was labeling exactly fifty boxes.",
+    "hypothesis": "Mona labeled exactly fifty boxes.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_048",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Mona was labeling boxes in the warehouse.",
+    "hypothesis": "Mona labeled boxes in the warehouse.",
+    "label": "True"
+  },
+  {
+    "id": "A_049",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Henry was proofreading the complete thesis, but the file closed on chapter three of eight and became unreadable.",
+    "hypothesis": "Henry proofread the complete thesis.",
+    "label": "False"
+  },
+  {
+    "id": "B_049",
+    "group": "B_Interrupted_Activity",
+    "premise": "Henry was proofreading at the office, but the file closed.",
+    "hypothesis": "Henry proofread at the office.",
+    "label": "True"
+  },
+  {
+    "id": "C_049",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Henry was proofreading the complete thesis.",
+    "hypothesis": "Henry proofread the complete thesis.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_049",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Henry was proofreading at the office.",
+    "hypothesis": "Henry proofread at the office.",
+    "label": "True"
+  },
+  {
+    "id": "A_050",
+    "group": "A_Interrupted_Accomplishment",
+    "premise": "Elena was recording one full podcast episode, but the recorder failed halfway through the interview.",
+    "hypothesis": "Elena recorded one full podcast episode.",
+    "label": "False"
+  },
+  {
+    "id": "B_050",
+    "group": "B_Interrupted_Activity",
+    "premise": "Elena was recording in the studio, but the recorder failed.",
+    "hypothesis": "Elena recorded in the studio.",
+    "label": "True"
+  },
+  {
+    "id": "C_050",
+    "group": "C_Ambiguous_Accomplishment",
+    "premise": "Elena was recording one full podcast episode.",
+    "hypothesis": "Elena recorded one full podcast episode.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_050",
+    "group": "D_Ambiguous_Activity",
+    "premise": "Elena was recording in the studio.",
+    "hypothesis": "Elena recorded in the studio.",
+    "label": "True"
+  }
+]
