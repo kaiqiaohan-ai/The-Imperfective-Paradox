@@ -1262,7 +1262,7 @@
   {
     "id": "A_046",
     "group": "A_Interrupted_Accomplishment",
-    "premise": "Dana was shoveling the entire driveway, but the shovel cracked after one third of the driveway.",
+    "premise": "Dana was shoveling the entire driveway, but the shovel cracked after one third of the driveway and she gave up.",
     "hypothesis": "Dana shoveled the entire driveway.",
     "label": "False"
   },
